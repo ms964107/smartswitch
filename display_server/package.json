@@ -1,0 +1,19 @@
+{
+  "name": "display_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "nodary-encoder": "^0.1.4",
+    "pcf8574": "^2.0.1",
+    "websocket": "^1.0.34",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

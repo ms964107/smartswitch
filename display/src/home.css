@@ -1,0 +1,129 @@
+.Home {
+	margin-left: 3%;
+	margin-right: 3%;
+	font-family: "system-ui"
+}
+
+.head {
+	margin-top: 30px;
+	margin-bottom: 35px;
+	justify-content: space-between;
+    display: flex;
+	font-size: x-large;
+}
+
+.time {
+	
+}
+
+.info {
+	justify-content: space-between;
+    display: flex;
+	text-align: center;
+}
+
+.item {
+	width: 170px;
+}
+
+.basic {
+	justify-content: space-between;
+    display: flex;
+	flex-direction: column;
+}
+
+.item_name {
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.item_num {
+	height: 120px;
+	font-size: 50px;
+	justify-content: center;
+    display: flex;
+	flex-direction: column;
+}
+
+.image_wrapper {
+	margin-top: 20px;
+	height: 130px;
+}
+
+.image {
+	height: 100%;
+	width: 100%
+}
+
+.model {
+	width: 220px;
+}
+
+.model_val {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.charging_status {
+	font-weight: bold;
+}
+
+.settings {
+	justify-content: space-between;
+    display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.settings_bot {
+	justify-content: center;
+    display: flex;
+	margin-top: 15px;
+}
+
+.edit {
+	background-color: blanchedalmond;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.item_setting {
+	height: 160px;
+	font-size: 50px;
+	justify-content: center;
+    display: flex;
+	flex-direction: column;
+}
+
+.item_setting_bot {
+	font-size: 30px;
+	width: 350px;
+	text-align: center;
+}
+
+.lock {
+	color: green;
+}
+
+.charging {
+	color: blue;
+}
+
+.charged {
+	color: green;
+}
+
+.unlock {
+	color: red;
+}
+
+.soc_num {
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.text {
+	width: 70px;
+    text-align: center;
+}

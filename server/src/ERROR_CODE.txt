@@ -1,0 +1,10 @@
+0	The user does not exist
+1	The user has registered
+2	Username and password do not match
+3	The user is currently authenticated
+4	The user is currently not authenticated
+5	Token is missing
+6	Invalid token
+7	Invalid inputs
+
+9	Other errors

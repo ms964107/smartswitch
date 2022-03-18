@@ -1,0 +1,42 @@
+{
+  "name": "smartswitch-server",
+  "version": "1.0.0",
+  "description": "FYDP SmartSwitch Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server.js",
+    "mysql_init": "brew services start mysql",
+    "mysql": "mysql.server start",
+    "login_mysql": "mysql -u root -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms964107/smartswitch-server.git"
+  },
+  "author": "ms964107",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ms964107/smartswitch-server/issues"
+  },
+  "homepage": "https://github.com/ms964107/smartswitch-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-mysql-session": "^2.1.6",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "session-file-store": "^1.5.0"
+  }
+}
